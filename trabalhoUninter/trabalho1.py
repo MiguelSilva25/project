@@ -2,8 +2,8 @@
 nomeDoLutador = input('Informe o nome do Lutador: ') # O nome que será exibido do lutador é string ou entrada de dados
 pesoDoLutador = float(input('Informe o peso do Lutador: ')) #O float serve para para qualquer número que tiver em casas decimais
 
-# Programa Principal
 # Aqui será apresentada onde o lutado se enquadra nas categorias de seu peso para luta!
+# Programa Principal
 if pesoDoLutador <= 55:
     print('O lutador',nomeDoLutador,'pesa',pesoDoLutador,'kg e se enquadra na categoria mosca')
 elif pesoDoLutador >= 55 and pesoDoLutador < 65:
